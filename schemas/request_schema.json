@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://adaptiveintelligencecircle.example/schemas/request.schema.json",
+  "title": "AIC Evaluate Request (reference sketch)",
+  "description": "Experimental. Pre-Covenant. Descriptive only.",
+  "type": "object",
+  "properties": {
+    "action": { "type": "string" },
+    "identity": { "type": "string" },
+    "flags": { "type": "integer" },
+    "context": { "type": "object" }
+  },
+  "additionalProperties": true
+}

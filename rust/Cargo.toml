@@ -1,0 +1,9 @@
+[package]
+name = "aic-ref"
+version = "0.1.0"
+edition = "2021"
+license = "GPL-3.0-or-later"
+description = "Minimal AIC reference client skeleton (experimental, pre-Covenant)"
+publish = false
+
+[dependencies]

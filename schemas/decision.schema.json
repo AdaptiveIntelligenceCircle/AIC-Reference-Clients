@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://adaptiveintelligencecircle.example/schemas/decision.schema.json",
+  "title": "AIC Decision (reference sketch)",
+  "description": "Experimental. Pre-Covenant. Not a final wire protocol.",
+  "type": "object",
+  "properties": {
+    "decision": {
+      "type": "string",
+      "enum": ["Allow", "Deny", "NeedHuman"]
+    },
+    "restrictive": { "type": "boolean" }
+  },
+  "required": ["decision"],
+  "additionalProperties": true
+}

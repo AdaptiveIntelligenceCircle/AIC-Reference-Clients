@@ -62,7 +62,7 @@ See `docs/running.md` for details.
 - **AIC-TestNet / Parallel TestNet** — eventual real endpoints; clients here may target stubs first.
 - **AIC-Formal** — Decision and SSI properties inform client-side checks.
 - **AIC-Security-Harness** — harnesses may drive similar entry points; clients stay higher-level and multi-language oriented.
-- **AIC-Start-Here / Localization** — orientation only.
+- **AIC-Beginners / Localization** — orientation only.
 
 ## Principles observed
 
